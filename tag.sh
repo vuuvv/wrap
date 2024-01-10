@@ -3,9 +3,7 @@
 # 显示所有执行命令
 set -ex
 
-go get -u vuuvv.cn/unisoftcn/orca
-go get -u vuuvv.cn/unisoftcn/pay-api
-go get -u vuuvv.cn/unisoftcn/user-api
+go get -u github.com/vuuvv/errors
 go mod tidy
 
 # 获取远程仓库中的最新标签
